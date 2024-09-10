@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to right, #f1e8e8,rgb(197, 190, 182),rgb(140, 134, 127));
+    font-family: 'Tajawal', sans-serif;
+  }
+  main {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  /*القائمة الرئيسية*/
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    background-color:rgb(140, 134, 127);
+  } 
+  nav .logo {
+    font-size: 3rem;
+    color:#fff3e4;
+  }
+  nav .nav-items {
+    list-style-type: none;
+    display: flex;
+  }
+  nav .nav-items .nav-item {
+    padding-left: 2rem;
+  }
+  .nav-item .nav-link {
+    color:#fff3e4;
+    text-decoration: none;
+  }
+  .nav-item .nav-link:hover {
+    color: #cfcfcf;
+  }
+  .nav-but {
+    font-family: 'Tajawal', sans-serif;
+    padding: 0.75rem 2rem;
+    border: none;
+    color:rgb(141, 129, 116);
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: rgb(240, 237, 226);
+    text-decoration: none;
+  }
+
+  /* القسم الأساسي */
+
+.hero {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  text-align: center;
+  color: dimgray;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.300);
+}
+
+.nav-but.ma {
+  background-color: rgb(240, 237, 226);
+  margin-left: 1rem;
+}
+
+/* الباقات*/
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features h3 {
+  color: dimgray;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.250);
+}
+
+.feature {
+  background-color:rgb(140, 134, 127);
+  display: flex;
+  border-radius: 3rem;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.feature .content {
+  padding: 4rem;
+  flex: 1;
+}
+
+.feature .content i {
+  color:#fff3e4;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.feature .content h2 {
+  color:#fff3e4;
+  margin-bottom: 2rem;
+}
+
+.feature .content p {
+  color:#fff3e4;
+  font-size: 1.2rem;
+  width: 80%;
+  line-height: 2;
+}
+
+.feature img {
+  flex: 1;
+  max-width: 50%;
+}
+
+/* المدربين */
+.details {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.details h2 {
+  color: dimgray;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.200);
+}
+
+.details-list {
+  color:#fff3e4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.detail {
+  background-color:rgb(140, 134, 127);
+  padding: 3rem;
+  border-radius: 64px 96px 120px 42px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.detail h3 {
+  color:#fff3e4;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.300);
+}
+
+.detail p {
+  color:#fff3e4;
+}
+
+/* التواصل*/
+footer {
+  background-color:rgb(140, 134, 127);
+  min-height: 10vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  font-size: 1.5rem;
+  color: rgb(240, 237, 226);
+}
+
+footer .icon {
+  color:#fff3e4;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
